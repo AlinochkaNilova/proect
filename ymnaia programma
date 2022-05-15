@@ -1,0 +1,13 @@
+program c
+  var a,j,p,s : real;
+begin
+  writeln('Эта программа вычисляет площадь и периметр фигуры.Но для начала..');
+  write('Введите длинну стороны а>>');
+  readln(a);
+  write('Введите длину стороны j>>');
+  readln(j); 
+  p:= (a+j)*2;
+  s:= a*j
+  writeln('p=' p:7:4);
+  writeln('s=' s:7:4);
+end.
